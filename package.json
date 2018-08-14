@@ -1,0 +1,30 @@
+{
+  "name": "koa-maker",
+  "version": "1.0.0",
+  "description": "a web app frame",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "node ./node_modules/mocha/bin/mocha --timeout 200000"
+  },
+  "author": "tian",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^2.4.1",
+    "koa": "^2.5.2",
+    "koa-body": "^4.0.4",
+    "koa-static": "^5.0.0",
+    "koa-views": "^6.1.4",
+    "log4js": "^3.0.4",
+    "recursive-readdir": "^2.2.2"
+  },
+  "devDependencies": {
+    "intelli-espower-loader": "^1.0.1",
+    "mocha": "^5.2.0",
+    "power-assert": "^1.6.0",
+    "require-reload": "^0.2.2",
+    "supertest": "^3.1.0"
+  }
+}
