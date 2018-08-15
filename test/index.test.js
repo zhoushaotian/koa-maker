@@ -1,5 +1,6 @@
 const koaMaker = require('../');
 
-const simpleTest = require('./simple_test');
+const projectTest = require('./project_test');
 
-simpleTest(koaMaker);
+
+projectTest(koaMaker);
