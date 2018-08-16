@@ -6,6 +6,10 @@
   "directories": {
     "lib": "lib"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zhoushaotian/koa-maker.git"
+  },
   "scripts": {
     "test": "node ./node_modules/mocha/bin/mocha --timeout 200000"
   },
